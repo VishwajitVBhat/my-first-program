@@ -1,0 +1,348 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background: linear-gradient(to bottom right, rgb(245, 245, 8), rgb(247, 151, 199));
+      .login-form {
+          background: white;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          width: 300px;
+      }
+
+      .form-group {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-bottom: 15px;
+      }
+
+      .login-form label {
+          margin-bottom: 5px;
+      }
+
+      .login-form input {
+          width: 95%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+
+      .login-form a {
+          color: #0072ff;
+          text-decoration: none;
+          
+          margin-top: 5px;
+      }
+
+      .login-form button {
+          background: linear-gradient(to bottom right, rgb(245, 245, 8), rgb(247, 151, 199));
+          color: white;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 100%;
+          margin-top:10px;
+      }
+      .login-form button:hover{
+        background: linear-gradient(to bottom right, yellow, hotpink);
+      }
+
+      .login-form p {
+          text-align: center;
+          margin-top: 15px;
+      }
+      
+      .header-container {
+          position: relative;
+          margin-bottom: 20px;
+      }
+      
+      h1 {
+          text-align: center;
+          margin: 0;
+      }
+      
+      .exit {
+          position: absolute;
+          right: 0;
+          top: 0;
+          margin: 0;
+          cursor: pointer;
+          
+      }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <div class="header-container">
+            <div class="exit">X</div>
+            <h1>Login</h1>
+        </div>
+        <div class="form-group">
+            <label for="u_name">User name</label>
+            <input type="text" id="u_name">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <a href="#">Forgot Password?</a>
+        <button>LOGIN</button>
+        <p>Not a member? <a href="#">Signup now</a></p>
+    </div>
+</body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: blue;
+            position: relative;
+            animation-name: bounce;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.9, 0.91, 0, 0.94);
+            animation-direction:alternate ;
+        }
+        @keyframes bounce{
+           0%{
+            top:0px;
+           }
+           50%{
+            top:200px
+           }
+           100%{
+            top:0px
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+ <html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title> 
+        <style> 
+            body{ 
+                display:flex; 
+                justify-content: center; 
+                align-items: center; 
+                background-color: black;
+                } 
+                .planet{ 
+                height: 50px; 
+                width: 50px; 
+                border-radius: 50%;
+                position: relative; 
+                top: 50px; 
+                left:50px; 
+                background-color: aquamarine; 
+                } 
+                .path-1{ 
+                    height: 1000px; 
+                    width: 1000px; 
+                    border-radius: 50%; 
+                    padding: 100px; 
+                    border: 2px solid rgb(196, 194, 194); 
+                    animation-name:roteting ; 
+                    animation-duration: 10s; 
+                    animation-iteration-count: infinite; 
+                } 
+                .path-2{ height: 800px; 
+                    width: 800px; 
+                    margin-bottom: 50px; 
+                    margin-left: 100px; 
+                    border-radius: 50%; 
+                    margin: 100px; 
+                    border: 2px solid rgb(196, 194, 194); 
+                } 
+                .path-3{ 
+                    height: 600px; 
+                    width: 600px; 
+                    margin-top: 50px; 
+                    margin-left: 100px; 
+                    border-radius: 50%;
+                    margin: 100px; 
+                    border: 2px solid rgb(196, 194, 194); 
+                    } 
+                    .path-4{ 
+                        height: 400px; 
+                        width: 400px; 
+                        margin-top: 50px; 
+                        margin-left: 100px; 
+                        border-radius: 50%; 
+                        margin: 100px; border: 2px solid rgb(196, 194, 194); 
+                    } 
+                    .sun{ 
+                        height: 150px; 
+                        width: 150px; 
+                        border-radius: 50%; 
+                        top: 100px; 
+                        left: 5000px; 
+                        background-image: url(images.jpeg); 
+                        background-position: center; 
+                        background-repeat:no-repeat ;
+                        background-size: cover; 
+                        } 
+                        @keyframes roteting 
+                        { 
+                            from{ 
+                                transform: rotate(0deg); 
+                            } 
+                            to{ 
+                                transform: rotate(360deg); 
+                            } 
+                        } 
+                    </style> 
+    </head>
+    <body>
+        <div class="path-1"> 
+            <div class="planet"> </div>
+            <div class="path-2">
+                <div class="planet"></div> 
+                <div class="path-3"> 
+                    <div class="planet"></div> 
+                    <div class="path-4">
+                        <div class="planet"></div>
+                        <div class="sun"></div> 
+                        </div> 
+                    </div> 
+                </div>
+            </div> 
+        </div>
+    </body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-delay: 0.3s;
+        }
+        div:hover{
+            width: 600px;
+            height: 600px;
+            background-color: aquamarine; 
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .navbar{
+            height: 100px;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        @media screen and (max-width:400px) {
+            
+        }  and(max-width=400px) {
+            .navbar{
+                 background-color:green;
+            }
+            img{
+                display:block;
+            }
+            ol{
+                display: none;
+            }
+        }
+        @media screen  and (min-width:401px) and (max-width:600px) {
+            .navbar{
+                 background-color:lightgray;
+            }
+        }
+        @media screen  and (min-width:601px)  {
+            .navbar{
+                 background-color:lightgray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul type="none">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">HELP</a></li>
+        </ul>
+    </div>
+</body>
+</html>
